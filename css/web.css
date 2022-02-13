@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #2d3142;
+    background-color: #4f5d75;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -25,17 +25,36 @@ body {
     margin: 5px 10px;
 }
 
+.navbar a:hover {
+    background-color: #2d3142;
+    color: #ffffff;
+    transition: 0.5s ease;
+}
+
 .navbar input {
     font-size: 1.1rem;
     font-weight: 500;
-    color: #ef8354;
-    padding: 4px 0px 4px 20px;
+    padding: 4px 0px 4px 10px;
     border-radius: 0.8rem;
-    margin: 5px 10px;
+    margin: 5px 20px 5px 10px;
     border: none;
+}
+
+.navbar input:hover {
+    background-color: #ef8354;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.navbar input:hover::placeholder {
+    color: #ffffff;
+    transition: 0.3s;
 }
 
 h1 {
     color: #ffffff;
     text-align: center;
+    font-size: 5rem;
+    font-weight: 300;
+    margin-top: 60px;
 }
