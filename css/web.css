@@ -1,8 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #4f5d75;
+    background-color: #3a3b42;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #1181B2;
 }
 
 .navbar ul {
@@ -19,16 +24,16 @@ body {
     font-size: 1.1rem;
     font-weight: 500;
     color: #4f5d75;
-    background-color: #ffffff;
+    background-color: #F7F4E9;
     padding: 4px 20px;
     border-radius: 0.8rem;
     margin: 5px 10px;
 }
 
 .navbar a:hover {
-    background-color: #2d3142;
-    color: #ffffff;
-    transition: 0.5s ease;
+    background-color: #1181B2;
+    color: #F7F4E9;
+    transition: 0.3s ease-out;
 }
 
 .navbar input {
@@ -41,20 +46,19 @@ body {
 }
 
 .navbar input:hover {
-    background-color: #ef8354;
-    color: #ffffff;
-    transition: 0.5s;
+    background-color: #1181B2;
+    transition: 0.3s ease-out;
 }
 
 .navbar input:hover::placeholder {
-    color: #ffffff;
+    color: #F7F4E9;
     transition: 0.3s;
 }
 
 h1 {
-    color: #ffffff;
+    color: #F7F4E9;
     text-align: center;
     font-size: 5rem;
-    font-weight: 300;
+    font-weight: 100;
     margin-top: 60px;
 }
